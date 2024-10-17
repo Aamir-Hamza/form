@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parents{
+            height: 470px;
+            width: 30%;
+            border: 1px solid black;
+            margin: auto;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+        .child{
+            width: auto;
+            height: auto;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+            
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            padding: 10px;
+
+        }
+        label{
+            font-weight: 900;
+        }
+        .child img{
+            width: 200px;
+            border-radius: 50%;
+            margin-left: 30px;
+            object-fit: cover;
+            
+        }
+        #john{
+            color:#b7bd61 ;
+        }
+        .Computer{
+            color: #bbc9db;
+        }
+        #title{
+            position: absolute;
+            top: 5px;
+            left:500px;
+        }
+        #card{
+            position: absolute;
+            top: 40px;
+            left: 500px;
+            
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="parents">
+        <h1 id="title">Title</h1>
+        <h2 id="card">Panda Card</h2>
+        <div class="child">
+            <img src="https://media.gettyimages.com/id/AB26958/photo/giant-panda.jpg?s=612x612&w=0&k=20&c=wq1R7QcLl4I-gCpu3pdwjEZEzNDO5z-AonMWOy2Scyw=" alt="">
+
+      
+        <label for="" id="john">John Doe</label>
+        <label for="" class="Computer">Computer Science 1</label>
+        <label for="" class="Computer"> Computer Scinece 2</label>
+        <label for="">Year:3</label>
+        <label for="">✡✡✡✡ </label>
+          
+        </div>
+    </div>
+</body>
+</html>
