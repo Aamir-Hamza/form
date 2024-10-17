@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .parents{
+            background-color: red;
+            height: 700px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+        .form{
+            background-color: white;
+            height: auto;
+            width: auto;
+            display: flex;
+            flex-direction: column;
+           padding: 10px;
+           margin-bottom: 10px;
+           border-radius: 10px;
+           gap: 10px;
+           box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+        }
+        #rating{
+            align-items: flex-start;
+        }
+        label{
+            font-weight: bold;
+        }
+        .btn{
+            width: 70px;
+            height: 25px;
+            text-align: center;
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+            position: relative;
+            left: 80px;
+        }
+        input{
+            height: 15px;
+           
+            
+        }
+        select{
+            height: 25px;
+        }
+        textarea{
+            height: 50px;
+        }
+        .hd{
+            display: flex;
+            justify-content: center;
+        }
+        .hd h1{
+            position: absolute;
+            left: 500px;
+            top: 10px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parents">
+        <div class="hd"><h1>Feed back form</h1></div>
+        
+        
+        <div class="form">
+            <label for="">Feedback Type</label>
+            <select name="" id="">
+                <option value="">Compliment</option>
+            </select>
+            <label for="">Message</label>
+            <textarea name="" id=""></textarea>
+            <label for="">Website Rating:</label>
+            <div> <input type="radio" id="Rating">
+             <span>Excellent</span>
+             <input type="radio" id="Rating">
+             <span>Good</span>
+             <input type="radio" id="Rating">
+             <span>Average</span>
+             <input type="radio" id="Rating">
+             <span>Poor</span>
+        </div>
+          <label for="">Age(10-100)</label> 
+        <input type="number">
+        <label for="">Email*</label>
+        <input type="email">
+         <label for=""> Password(min. 8 characters):</label>
+        <input type="number">
+         <label for="">Website Url</label> 
+        <input type="url">
+        <div>
+            <input type="checkbox">
+            <span> I agree to the term and conditions</span>
+        </div>
+        <button class="btn">Submit</button>
+           
+            
+           
+
+        </div>
+    </div>
+    
+</body>
+</html>
